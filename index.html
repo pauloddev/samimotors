@@ -1,0 +1,1009 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sami Motors | Motos e Scooters Elétricas em Queimados</title>
+<meta name="description" content="Scooters, quadriciclos, triciclos e bikes elétricas em Queimados – RJ. 2 anos de garantia, oficina própria, financiamento e entrega em todo o RJ.">
+<meta name="theme-color" content="#0B0B0B">
+<!-- Canonical: descomente e troque pelo domínio definitivo quando publicar -->
+<!-- <link rel="canonical" href="https://SEU-DOMINIO.com.br/"> -->
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Sami Motors | Praticidade ao seu alcance">
+<meta property="og:description" content="Mobilidade elétrica em Queimados – RJ: 2 anos de garantia, oficina própria e entrega em todo o RJ.">
+<meta property="og:image" content="img/og-sami-motors.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<!-- og:url: preencha com o domínio definitivo -->
+<!-- <meta property="og:url" content="https://SEU-DOMINIO.com.br/"> -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sami Motors | Praticidade ao seu alcance">
+<meta name="twitter:description" content="Mobilidade elétrica em Queimados – RJ: 2 anos de garantia, oficina própria e entrega em todo o RJ.">
+<meta name="twitter:image" content="img/og-sami-motors.jpg">
+
+<!-- ===== Google Tag Manager: cole aqui o snippet do <head> (GTM-XXXXXXX) ===== -->
+<!-- ===== Meta Pixel: cole aqui o código base do Pixel ===== -->
+<!-- ===== Google Analytics 4 (se não usar via GTM): cole aqui o gtag.js ===== -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MotorcycleDealer",
+  "name": "Sami Motors",
+  "slogan": "Praticidade ao seu alcance",
+  "image": "img/fachada.webp",
+  "telephone": "+55 21 99084-5432",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Vereador Marinho Hemetérito de Oliveira, 985 - Vila Nascente",
+    "addressLocality": "Queimados",
+    "addressRegion": "RJ",
+    "postalCode": "26377-405",
+    "addressCountry": "BR"
+  },
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "09:00", "closes": "19:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "18:00"}
+  ],
+  "sameAs": ["https://www.instagram.com/samimotors.rj/"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,400..900;1,62..125,400..900&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/prod-loja2.webp" fetchpriority="high">
+
+<style>
+/* ================= DESIGN TOKENS ================= */
+:root{
+  --y:#FFD100;          /* amarelo Sami (logo) */
+  --y-deep:#E0A800;
+  --k:#0B0B0B;          /* preto base */
+  --k-2:#151515;        /* superfícies no preto */
+  --k-line:#2A2A2A;
+  --w:#FFFFFF;
+  --paper:#F4F3EE;      /* superfícies no branco */
+  --ink-2:#454545;      /* texto secundário no branco (AA) */
+  --mute:#BDBDBD;       /* texto secundário no preto (AA) */
+  --r-sm:12px; --r:20px; --r-lg:32px; --r-pill:999px;
+  --s1:4px; --s2:8px; --s3:12px; --s4:16px; --s5:24px; --s6:32px; --s7:48px; --s8:64px; --s9:96px; --s10:128px;
+  --wrap:1200px;
+  --sec:clamp(64px,7vw,96px);  /* respiro vertical das seções */
+  --slant:-24deg;       /* ângulo das barras do logo "///" */
+  --ease:cubic-bezier(.2,.8,.2,1);
+  --f:'Archivo',system-ui,sans-serif;
+}
+:root{color-scheme:light}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--k);color:var(--w);font-family:var(--f);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--y);outline-offset:3px;border-radius:6px}
+.on-light :focus-visible,.on-yellow :focus-visible{outline-color:var(--k)}
+.wrap{width:min(100% - 32px, var(--wrap));margin-inline:auto}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* tipografia display: itálico condensado pesado, como a comunicação da loja */
+.d{font-family:var(--f);font-style:italic;font-weight:900;font-stretch:70%;text-transform:uppercase;letter-spacing:-.01em;line-height:.9;margin:0}
+.h2{font-size:clamp(40px,6.4vw,80px)}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.eyebrow::before{content:"";width:22px;height:10px;background:repeating-linear-gradient(90deg,currentColor 0 4px,transparent 4px 8px);transform:skewX(var(--slant))}
+.lead{font-size:clamp(17px,1.6vw,20px);line-height:1.6;margin:0}
+
+/* ================= BOTÕES ================= */
+.btn{--grad:linear-gradient(120deg,#FFE04A 0%,#FFD100 45%,#F2B200 100%);--sheen:rgba(255,255,255,.65);--fg:var(--k);position:relative;isolation:isolate;overflow:hidden;display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 28px;border-radius:var(--r-pill);background:var(--grad);background-size:200% 100%;color:var(--fg);font-weight:800;font-size:16px;text-decoration:none;border:0;cursor:pointer;font-family:inherit;transition:box-shadow .25s var(--ease);white-space:nowrap;animation:btnflow 5s ease-in-out infinite}
+/* brilho que passa pelo botão */
+.btn::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(105deg,transparent 30%,var(--sheen) 50%,transparent 70%);transform:translateX(-130%);animation:sheen 3.6s ease-in-out infinite}
+@keyframes sheen{0%,55%{transform:translateX(-130%)}100%{transform:translateX(130%)}}
+@keyframes btnflow{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+.btn:hover{animation:btnflow 5s ease-in-out infinite,hop .5s cubic-bezier(.34,1.56,.64,1) forwards;box-shadow:0 12px 26px rgba(0,0,0,.22)}
+.btn--y:hover{box-shadow:0 12px 30px rgba(255,209,0,.38)}
+@keyframes hop{0%{transform:translateY(0)}45%{transform:translateY(-6px)}75%{transform:translateY(-2px)}100%{transform:translateY(-3px)}}
+.btn--k{--grad:linear-gradient(120deg,#3A3A3A 0%,#0B0B0B 50%,#262626 100%);--sheen:rgba(255,255,255,.22);--fg:var(--w)}
+.btn--ghost{--grad:linear-gradient(120deg,rgba(255,255,255,.16),rgba(255,255,255,.02) 50%,rgba(255,209,0,.18));--sheen:rgba(255,255,255,.3);color:var(--w);box-shadow:inset 0 0 0 2px rgba(255,255,255,.75)}
+.btn--ghost:hover{box-shadow:inset 0 0 0 2px var(--y),0 12px 26px rgba(0,0,0,.3)}
+/* salto sutil nos textos */
+.d,.lead,.eyebrow,.vcard__title,.perk strong,.chip,.feat b,.ticks li{transition:transform .4s cubic-bezier(.34,1.56,.64,1)}
+.d:hover,.lead:hover,.eyebrow:hover,.perk strong:hover,.chip:hover,.feat b:hover,.ticks li:hover{transform:translateY(-3px)}
+.btn svg{width:20px;height:20px;flex-shrink:0}
+.btn-row{display:flex;flex-wrap:wrap;gap:12px}
+
+/* ================= DIVISOR: faixa dupla amarela (a rua em frente à loja) ================= */
+.road{height:14px;background:linear-gradient(var(--y) 0 4px,transparent 4px 10px,var(--y) 10px 14px)}
+.road--on-k{background-color:var(--k)}
+.road--on-w{background-color:var(--w)}
+
+/* ================= HEADER ================= */
+.hdr{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .3s,box-shadow .3s,padding .3s;padding:18px 0}
+.hdr.is-solid{background:rgba(11,11,11,.92);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--k-line);padding:10px 0}
+.hdr .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.hdr__logo img{height:46px;width:auto}
+.nav{display:flex;align-items:center;gap:28px}
+.nav a{position:relative;text-decoration:none;font-weight:600;font-size:15px;color:#EDEDED;padding:12px 0}
+.nav a::after{content:"";position:absolute;left:0;right:0;bottom:6px;height:2px;background:var(--y);transform:scaleX(0);transform-origin:left;transition:transform .25s var(--ease)}
+.nav a:hover::after{transform:scaleX(1)}
+.hdr__cta{min-height:46px;padding:0 20px;font-size:15px}
+.menu-btn{display:none;width:48px;height:48px;border-radius:var(--r-sm);background:var(--k-2);border:1px solid var(--k-line);color:var(--w);align-items:center;justify-content:center;cursor:pointer}
+@media (max-width:900px){
+  .nav,.hdr__cta{display:none}
+  .menu-btn{display:inline-flex}
+  .nav.is-open{display:flex;position:absolute;top:100%;left:16px;right:16px;flex-direction:column;align-items:stretch;gap:0;padding:8px 20px 20px;background:var(--k-2);border:1px solid var(--k-line);border-radius:var(--r)}
+  .nav.is-open a{padding:14px 0;border-bottom:1px solid var(--k-line);font-size:17px}
+  .nav.is-open a::after{display:none}
+  .nav.is-open .btn{margin-top:16px;color:var(--k)}
+}
+.nav .btn{display:none}
+@media (max-width:900px){.nav.is-open .btn{display:inline-flex}}
+
+/* ================= HERO ================= */
+.hero{position:relative;padding:clamp(112px,12vw,150px) 0 var(--s7);overflow:hidden;background:var(--k)}
+.hero__slashes{position:absolute;top:0;right:8%;height:100%;display:flex;gap:18px;pointer-events:none}
+.hero__slashes i{display:block;width:clamp(10px,1.4vw,22px);height:100%;background:var(--y);opacity:.09;transform:skewX(var(--slant))}
+.hero__grid{position:relative;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);grid-template-areas:"title photo" "copy photo";column-gap:var(--s7);align-items:end}
+.hero__title{position:relative;z-index:2;font-size:clamp(50px,6.8vw,100px);margin-right:-22%}
+.hero__title em{font-style:inherit;color:var(--y)}
+.hero__copy{grid-area:copy;display:flex;flex-direction:column;gap:var(--s5);padding-top:var(--s6);max-width:520px}
+.hero__copy .lead{color:#D2D2D2}
+.hero__eyebrow{color:var(--y);margin-bottom:var(--s5)}
+.hero__photo{grid-area:photo;position:relative;align-self:stretch;min-height:520px}
+.hero__frame{position:absolute;inset:0;border-radius:var(--r-lg);overflow:hidden;clip-path:polygon(14% 0,100% 0,100% 100%,0 100%);}
+.hero__frame img{width:100%;height:100%;object-fit:cover;object-position:center 70%}
+.hero__frame::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,11,11,0) 55%,rgba(11,11,11,.55))}
+.hero__tag{position:absolute;left:-6%;bottom:28px;z-index:3;display:flex;align-items:center;gap:12px;padding:14px 18px;background:var(--w);color:var(--k);border-radius:var(--r);box-shadow:0 18px 40px rgba(0,0,0,.45)}
+.hero__tag b{display:block;font-size:15px;line-height:1.2}
+.hero__tag span{font-size:13px;color:var(--ink-2)}
+.hero__tag i{display:inline-flex;width:42px;height:42px;border-radius:var(--r-sm);background:var(--y);align-items:center;justify-content:center}
+.hero__tag2{position:absolute;right:20px;top:20px;z-index:3;padding:10px 16px;border-radius:var(--r-pill);background:var(--y);color:var(--k);font-weight:900;font-style:italic;text-transform:uppercase;font-size:14px;letter-spacing:.02em}
+@media (max-width:900px){
+  .hero__grid{grid-template-columns:1fr;grid-template-areas:"title" "photo" "copy"}
+  .hero__title{margin-right:0}
+  .hero__photo{position:relative;display:block;width:100%;min-height:0;height:min(108vw,500px);aspect-ratio:auto;align-self:start;margin-top:var(--s5)}
+  .hero__frame{position:absolute;top:0;right:0;bottom:0;left:0}
+  .hero__tag{right:auto;max-width:calc(100% - 24px)}
+  .hero__tag b,.hero__tag span{white-space:nowrap}
+  .hero__frame{clip-path:polygon(10% 0,100% 0,100% 100%,0 100%)}
+  .hero__tag{left:12px;bottom:12px}
+}
+
+/* ================= BENEFÍCIOS ================= */
+.perks{background:var(--k);padding:0 0 var(--sec)}
+.perks__box{border:3px solid var(--y);border-radius:var(--r-lg);overflow:hidden;background:var(--k-2)}
+.perks__head{background:var(--y);color:var(--k);text-align:center;padding:14px 16px}
+.perks__head h2{font-size:clamp(28px,3.4vw,40px)}
+.perks__grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr))}
+.perk{display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;padding:var(--s6) var(--s4);border-right:1px solid var(--k-line)}
+.perk:last-child{border-right:0}
+.perk svg{width:80px;height:80px}
+.perk strong{font-style:italic;font-weight:900;font-stretch:70%;text-transform:uppercase;font-size:28px;line-height:.95;color:var(--y)}
+.perk span{font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:.02em;color:#E6E6E6;line-height:1.4}
+@media (max-width:900px){
+  .perks__grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .perk{border-bottom:1px solid var(--k-line)}
+  .perk:nth-child(2n){border-right:0}
+  .perk:last-child{grid-column:1/-1}
+  .perk{padding:var(--s5) var(--s3)}
+  .perk strong{font-size:22px}
+  .perk span{font-size:12.5px}
+  .perk svg{height:60px;width:auto}
+}
+
+/* ================= FAIXAS ================= */
+.bands{background:var(--w);padding:clamp(48px,6vw,80px) 0;display:flex;flex-direction:column;gap:clamp(14px,2vw,24px);overflow:hidden}
+.band{display:flex;align-items:center;gap:18px;padding:clamp(18px,2.4vw,30px) 0;width:calc(100% - clamp(40px,6vw,110px))}
+.band__txt{font-size:clamp(32px,5.6vw,76px);white-space:nowrap}
+.band__mark{width:clamp(14px,1.6vw,22px);aspect-ratio:1;flex-shrink:0}
+.band--l{background:var(--k);color:var(--w);justify-content:flex-end;padding-right:clamp(48px,7vw,110px);clip-path:polygon(0 0,100% 0,calc(100% - clamp(36px,5vw,70px)) 100%,0 100%)}
+.band--l .band__mark{background:var(--y)}
+.band--r{margin-left:auto;background:var(--y);color:var(--k);padding-left:clamp(48px,7vw,110px);clip-path:polygon(clamp(36px,5vw,70px) 0,100% 0,100% 100%,0 100%)}
+.band--r .band__mark{background:var(--k);transform:rotate(45deg)}
+@media (max-width:600px){.band{width:calc(100% - 28px)}.band__txt{white-space:normal}.band--l{justify-content:flex-start;padding-left:16px}}
+.js .band--l{transform:translateX(-105%)}
+.js .band--r{transform:translateX(105%)}
+.js .band{transition:transform 1s var(--ease)}
+.js .band.is-in{transform:none}
+.js .band:nth-child(2){transition-delay:.12s}
+.js .band:nth-child(3){transition-delay:.24s}
+
+/* ================= VEÍCULOS (bento) ================= */
+.fleet{background:var(--k);padding:var(--sec) 0}
+.sec-head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:var(--s5);margin-bottom:var(--s6)}
+.sec-head .lead{max-width:420px;color:var(--mute)}
+.bento{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:260px;gap:16px}
+.vcard{position:relative;display:block;border-radius:var(--r);overflow:hidden;text-decoration:none;color:var(--w);background:var(--k-2);isolation:isolate}
+.vcard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s var(--ease);z-index:-2}
+.vcard::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,11,11,0) 35%,rgba(11,11,11,.88));z-index:-1}
+.vcard:hover img{transform:scale(1.05)}
+.vcard__body{position:absolute;left:0;right:0;bottom:0;padding:var(--s5);display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.vcard__title{font-size:clamp(26px,2.6vw,38px)}
+.vcard__go{flex-shrink:0;display:inline-flex;width:48px;height:48px;border-radius:var(--r-pill);background:var(--y);color:var(--k);align-items:center;justify-content:center;transition:transform .25s var(--ease)}
+.vcard:hover .vcard__go{transform:translateX(4px) rotate(-12deg)}
+.car .vcard{height:clamp(380px,38vw,480px)}
+.vcard__num{position:absolute;top:16px;left:16px;padding:6px 12px;border-radius:var(--r-pill);background:rgba(11,11,11,.7);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+@media (max-width:900px){
+  .bento{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:200px}
+  .vcard--big{grid-column:span 2;grid-row:span 2}
+  .vcard--wide{grid-column:span 2}
+}
+.vcard:not(.vcard--big) .vcard__title{font-size:clamp(22px,2.1vw,30px)}
+@media (max-width:600px){.bento{grid-template-columns:1fr;grid-auto-rows:220px}.vcard--big{grid-column:auto;grid-row:span 2}.vcard--wide{grid-column:auto}.vcard:not(.vcard--big) .vcard__title{font-size:30px}}
+
+/* ================= CATEGORIAS (ícones) ================= */
+.cats{background:var(--k);padding:var(--sec) 0 0}
+.cats__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.cat{position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;aspect-ratio:1/1;padding:var(--s5);border-radius:var(--r-lg);background:linear-gradient(145deg,#FFE04A 0%,#FFD100 50%,#F2B200 100%);color:var(--k);text-decoration:none;text-align:center;transition:transform .45s cubic-bezier(.34,1.56,.64,1),box-shadow .3s}
+.cat::before{content:"";position:absolute;top:-10%;right:14%;width:14%;height:120%;background:rgba(255,255,255,.18);transform:skewX(var(--slant));box-shadow:28px 0 0 rgba(255,255,255,.12)}
+.cat:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(255,209,0,.28)}
+.cat svg{position:relative;width:min(80%,200px);height:auto;transition:transform .45s cubic-bezier(.34,1.56,.64,1)}
+.cat:hover svg{transform:translateX(6px)}
+.cat__name{position:relative;font-family:var(--f);font-style:italic;font-weight:900;font-stretch:70%;text-transform:uppercase;font-size:clamp(22px,2.3vw,32px);line-height:.95}
+@media (max-width:900px){.cats__grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.cat{padding:var(--s3);gap:8px}.cat svg{width:86%}.cat__name{font-size:clamp(17px,4.8vw,24px)}}
+
+/* ================= CARROSSEL (veículos e clientes) ================= */
+.car{--pv:3;--gap:16px;position:relative}
+.car__viewport{overflow:hidden;border-radius:var(--r);touch-action:pan-y}
+.car__track{display:flex;gap:var(--gap);transition:transform .7s cubic-bezier(.65,0,.35,1);will-change:transform}
+.car__track>*{flex:0 0 calc((100% - (var(--pv) - 1) * var(--gap)) / var(--pv))}
+.car__track>* img{transition:transform .7s cubic-bezier(.65,0,.35,1),filter .7s}
+
+
+
+.car__bar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:var(--s5)}
+.car__btns{display:flex;gap:10px}
+.car__btn{width:52px;height:52px;border-radius:var(--r-pill);border:0;background:var(--y);color:var(--k);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;transition:transform .4s cubic-bezier(.34,1.56,.64,1)}
+.car__btn:hover{transform:translateY(-3px)}
+.car__btn--prev{background:var(--k-2);color:var(--w);box-shadow:inset 0 0 0 1.5px #444}
+.car__dots{display:flex;gap:6px;flex-wrap:wrap}
+.car__dots button{width:10px;height:10px;padding:0;border-radius:var(--r-pill);border:0;background:#444;cursor:pointer;transition:width .3s var(--ease),background .3s}
+.car__dots button[aria-current="true"]{width:28px;background:var(--y)}
+.car__dots button::after{content:"";display:block;width:100%;height:100%;padding:17px}
+.car__progress{height:4px;flex:1;max-width:260px;border-radius:4px;background:#333;overflow:hidden}
+.car__progress i{display:block;height:100%;width:0;background:var(--y);transition:width .7s var(--ease)}
+@media (max-width:900px){.car{--pv:2}}
+@media (max-width:560px){.car{--pv:1.15;--gap:12px}}
+.car--clients{--pv:4}
+@media (max-width:900px){.car--clients{--pv:2.2}}
+@media (max-width:560px){.car--clients{--pv:1.3}}
+.slide-cli{margin:0;border-radius:var(--r);overflow:hidden;aspect-ratio:4/5;background:var(--k-2)}
+.slide-cli img{width:100%;height:100%;object-fit:cover;object-position:center 45%}
+
+/* ================= CRÉDITO 96x ================= */
+.credit{background:var(--w);color:var(--k);padding:var(--sec) 0;overflow:hidden}
+.credit__grid{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:var(--s7);align-items:center}
+.credit__copy{display:flex;flex-direction:column;gap:var(--s5)}
+.credit__copy .lead{color:var(--ink-2)}
+.hl{background:var(--y);padding:0 .12em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.credit__num{border-radius:var(--r-lg);background:var(--y);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:clamp(24px,3vw,36px) clamp(28px,4vw,48px);box-shadow:0 24px 50px rgba(255,209,0,.28)}
+.credit__num small{font-size:clamp(16px,1.6vw,20px);font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+.credit__num .d{font-size:clamp(150px,19vw,260px);line-height:.85;margin:4px 0 12px}
+.credit__num em{font-style:normal;padding:12px 22px;border-radius:var(--r-pill);background:var(--k);color:var(--w);font-weight:800;font-size:16px}
+@media (max-width:900px){.credit__grid{grid-template-columns:1fr}.credit__num{justify-self:start;width:100%}}
+
+/* ================= GARANTIA ================= */
+.warranty{position:relative;background:var(--k);padding:var(--sec) 0;overflow:hidden}
+.warranty::before{content:"";position:absolute;left:40%;top:50%;width:900px;height:900px;transform:translate(-20%,-50%);background:radial-gradient(circle,rgba(255,209,0,.16),rgba(255,209,0,0) 62%);pointer-events:none}
+.warranty__grid{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr) minmax(0,.9fr);gap:var(--s6);align-items:center}
+/* pilar amarelo com texto vertical — igual aos pilares da fachada */
+.pillar{align-self:stretch;width:64px;border-radius:var(--r-sm);background:var(--y);color:var(--k);display:flex;align-items:center;justify-content:center;padding:var(--s4) 0}
+.pillar span{writing-mode:vertical-rl;text-orientation:upright;font-weight:900;font-size:20px;letter-spacing:.02em;line-height:1}
+.warranty__big{font-size:clamp(110px,15vw,200px);color:var(--y)}
+.warranty__sub{font-size:clamp(36px,4.6vw,60px);margin-top:4px}
+.warranty__copy{display:flex;flex-direction:column;gap:var(--s5)}
+.warranty__copy .lead{color:#D0D0D0;max-width:480px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{padding:12px 20px;border-radius:var(--r-pill);border:1.5px solid var(--y);font-weight:700}
+.sh3d{--shape:polygon(50% 0,100% 12.5%,100% 46%,96% 61%,87% 75%,70% 89%,50% 100%,30% 89%,13% 75%,4% 61%,0 46%,0 12.5%);position:relative;width:min(340px,100%);aspect-ratio:400/460;justify-self:center;perspective:900px}
+.sh3d__obj{position:absolute;inset:0;transform-style:preserve-3d;transform:rotateY(-22deg) rotateX(8deg)}
+.js .sh3d__obj{animation:turn3d 7s ease-in-out infinite}
+@keyframes turn3d{0%,100%{transform:rotateY(-26deg) rotateX(8deg) translateY(0)}50%{transform:rotateY(26deg) rotateX(6deg) translateY(-12px)}}
+.sh3d__obj>span{position:absolute;inset:0;clip-path:var(--shape);background:linear-gradient(90deg,#6E4C00,#B98600 50%,#6E4C00);transform:translateZ(calc(var(--i) * -2.4px))}
+.sh3d__face{position:absolute;inset:0;clip-path:var(--shape);background:linear-gradient(140deg,#FFF6B0 0%,#FFD100 38%,#E9A900 100%);transform:translateZ(1px)}
+.sh3d__face::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.75) 48%,transparent 60%);transform:translateX(-120%)}
+.js .sh3d__face::after{animation:sheen 5s ease-in-out infinite}
+.sh3d__inner{position:absolute;inset:9% 9% 10%;clip-path:var(--shape);background:linear-gradient(180deg,#F5BC00,#FFD54A);transform:translateZ(8px)}
+.sh3d__ring{position:absolute;inset:7.5% 7.5% 8.5%;clip-path:var(--shape);background:#C99400;transform:translateZ(6px)}
+.sh3d__check{position:absolute;left:22%;top:28%;width:56%;transform:translateZ(26px);filter:drop-shadow(4px 8px 0 rgba(122,88,0,.55))}
+.sh3d__floor{position:absolute;left:15%;right:15%;bottom:-8%;height:9%;border-radius:50%;background:radial-gradient(rgba(255,209,0,.35),rgba(0,0,0,0) 70%);filter:blur(6px)}
+@media (max-width:900px){
+  .warranty__grid{grid-template-columns:1fr}
+  .pillar{display:none}
+  .sh3d{width:min(240px,70%);order:-1}
+}
+
+/* ================= OFICINA ================= */
+.shop{background:var(--w);color:var(--k);padding:var(--sec) 0}
+.shop__grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:var(--s7);align-items:center}
+.shop__photo{position:relative;border-radius:var(--r-lg);overflow:hidden;aspect-ratio:4/5}
+.shop__photo img{width:100%;height:100%;object-fit:cover}
+.shop__badge{position:absolute;left:16px;top:16px;padding:10px 16px;border-radius:var(--r-pill);background:var(--y);font-weight:900;font-style:italic;text-transform:uppercase;font-size:14px}
+.shop__copy{display:flex;flex-direction:column;gap:var(--s5)}
+.shop__copy .lead{color:var(--ink-2)}
+.ticks{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.ticks li{display:flex;gap:14px;align-items:flex-start;padding:18px 20px;border-radius:var(--r);background:var(--paper);font-weight:600}
+.ticks i{flex-shrink:0;display:inline-flex;width:36px;height:36px;border-radius:10px;background:var(--k);align-items:center;justify-content:center}
+@media (max-width:900px){.shop__grid{grid-template-columns:1fr}.shop__photo{aspect-ratio:4/3.4}}
+
+/* ================= PROTEÇÃO VEICULAR ================= */
+.protect{background:var(--y);color:var(--k);padding:var(--sec) 0;overflow:hidden}
+.protect__grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:var(--s6);align-items:center}
+.protect__copy{display:flex;flex-direction:column;gap:var(--s4)}
+.protect__top{display:flex;flex-wrap:wrap;align-items:flex-end;gap:var(--s3) var(--s5)}
+.protect__plan{font-size:clamp(44px,5.2vw,76px)}
+.protect__cta{display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+.protect__plan span{display:block;-webkit-text-stroke:2px var(--k);color:transparent}
+.protect__list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.protect__list li{display:flex;gap:12px;align-items:center;padding:16px;border-radius:var(--r);background:var(--k);color:var(--w);font-weight:600;font-size:15px;line-height:1.35}
+.protect__list li i{flex-shrink:0;display:inline-flex;width:40px;height:40px;border-radius:var(--r-pill);background:var(--y);align-items:center;justify-content:center}
+.protect__list small{display:block;color:var(--y);font-weight:800}
+.price{display:inline-flex;align-items:baseline;gap:8px;min-height:56px;padding:10px 22px;border-radius:var(--r-pill);background:var(--k);color:var(--w)}
+.price small{font-size:13px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--y);margin-right:6px}
+.price b{font-size:clamp(30px,3vw,40px);font-weight:900;font-style:italic;font-stretch:72%;color:var(--y);line-height:1}
+.protect__img{position:relative}
+.protect__img img{width:118%;max-width:none;margin-left:-6%;height:auto;filter:drop-shadow(0 30px 40px rgba(0,0,0,.28))}
+.partner{font-size:14px;color:#2A2A2A}
+.partner a{font-weight:800}
+@media (max-width:900px){.protect__grid{grid-template-columns:1fr}.protect__img{order:-1;margin:0 auto -8px;max-width:520px}.protect__img img{width:100%;margin-left:0}}
+@media (max-width:520px){.protect__list{grid-template-columns:1fr}}
+
+/* ================= CEO ================= */
+.ceo{position:relative;background:var(--k);padding:var(--sec) 0;overflow:hidden}
+.ceo::before{content:"";position:absolute;top:0;bottom:0;left:-8%;width:52%;background:var(--y);opacity:.06;transform:skewX(-18deg)}
+.ceo__grid{position:relative;display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:var(--s8);align-items:center}
+.ceo__photo{position:relative;max-width:460px;width:100%;justify-self:center}
+.ceo__photo::before{content:"";position:absolute;inset:24px -24px -24px 24px;border-radius:var(--r-lg);background:var(--y)}
+.ceo__photo img{position:relative;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 22%;border-radius:var(--r-lg)}
+.ceo__name-tag{position:absolute;left:-16px;bottom:32px;padding:14px 22px;border-radius:var(--r);background:var(--k);border:2px solid var(--y);line-height:1.2}
+.ceo__name-tag b{display:block;font-size:19px}
+.ceo__name-tag span{font-size:13px;font-weight:800;letter-spacing:.16em;color:var(--y)}
+.ceo__copy{display:flex;flex-direction:column;gap:var(--s5)}
+.ceo__name{font-size:clamp(56px,8vw,112px)}
+.ceo__name em{font-style:inherit;color:var(--y)}
+.ceo__role{display:inline-flex;align-self:flex-start;padding:10px 18px;border-radius:var(--r-pill);background:var(--y);color:var(--k);font-weight:900;letter-spacing:.14em;font-size:14px}
+.ceo__copy .lead{color:#D0D0D0;max-width:520px}
+@media (max-width:900px){.ceo__grid{grid-template-columns:1fr;gap:var(--s8)}.ceo__photo{max-width:360px}}
+
+/* ================= A LOJA ================= */
+.store{background:var(--w);color:var(--k);padding:var(--sec) 0}
+.store__hero{position:relative;border-radius:var(--r-lg);overflow:hidden;aspect-ratio:16/8}
+.store__hero img{width:100%;height:100%;object-fit:cover;object-position:center 45%}
+.store__title{position:absolute;left:0;bottom:0;padding:var(--s6);background:linear-gradient(0deg,rgba(11,11,11,.8),rgba(11,11,11,0));right:0;color:var(--w)}
+.store__grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:16px}
+.feat{padding:var(--s5);border-radius:var(--r);background:var(--paper);display:flex;flex-direction:column;gap:10px}
+.feat i{display:inline-flex;width:48px;height:48px;border-radius:var(--r-sm);background:var(--k);align-items:center;justify-content:center}
+.feat b{font-size:19px;line-height:1.2}
+.feat span{font-size:15px;color:var(--ink-2);line-height:1.5}
+.feat--y{background:var(--y)}
+.feat--y span{color:#2A2A2A}
+.feat--y i{background:var(--k)}
+.feat--photo{padding:0;overflow:hidden;position:relative;min-height:220px}
+.feat--photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+@media (max-width:900px){.store__grid{grid-template-columns:repeat(2,minmax(0,1fr))}.store__hero{aspect-ratio:4/3.2}}
+@media (max-width:520px){.store__grid{grid-template-columns:1fr}}
+
+/* ================= CLIENTES ================= */
+.clients{background:var(--k);padding:var(--sec) 0}
+.clients__more{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:var(--s6)}
+
+/* ================= VISITE ================= */
+.visit{background:var(--w);color:var(--k);padding:var(--sec) 0}
+.visit__grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:16px;margin-top:var(--s7)}
+.visit__photo{border-radius:var(--r-lg);overflow:hidden;min-height:100%}
+.visit__photo img{width:100%;height:100%;object-fit:cover;object-position:center 60%}
+.visit__side{display:grid;gap:16px;grid-template-rows:minmax(320px,1fr) auto}
+.map{position:relative;border-radius:var(--r-lg);overflow:hidden;background:var(--paper);min-height:320px}
+.map__base{position:absolute;inset:0;width:100%;height:100%}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(.35) contrast(1.05);opacity:0;transition:opacity .5s}
+.map iframe.is-loaded{opacity:1}
+.map__chip{position:absolute;left:16px;bottom:16px;z-index:3;display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:var(--r-pill);background:var(--k);color:var(--w);font-weight:800;font-size:14px;text-decoration:none;box-shadow:0 8px 20px rgba(0,0,0,.25);transition:transform .4s cubic-bezier(.34,1.56,.64,1)}
+.map__chip:hover{transform:translateY(-3px)}
+/* pino 3D amarelo pulsando (decorativo, sobre o centro do mapa) */
+.pin{position:absolute;left:50%;top:50%;width:0;height:0;pointer-events:none;z-index:2}
+.pin__head{position:absolute;left:-26px;top:-78px;width:52px;height:52px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:radial-gradient(circle at 30% 30%,#FFF1A6 0,#FFD100 38%,#D9A400 100%);box-shadow:inset -6px -6px 10px rgba(0,0,0,.18),0 10px 18px rgba(0,0,0,.35)}
+.pin__head::after{content:"";position:absolute;inset:15px;border-radius:50%;background:var(--k);box-shadow:inset 0 2px 3px rgba(255,255,255,.25)}
+.pin__shadow{position:absolute;left:-14px;top:-6px;width:28px;height:10px;border-radius:50%;background:rgba(0,0,0,.35);filter:blur(1px)}
+.pin__pulse{position:absolute;left:-30px;top:-15px;width:60px;height:30px;border-radius:50%;border:3px solid var(--y);opacity:0}
+.js .pin__head{animation:bob 2.2s ease-in-out infinite}
+.js .pin__pulse{animation:pulse 2.2s ease-out infinite}
+.js .pin__pulse+.pin__pulse{animation-delay:1.1s}
+@keyframes bob{0%,100%{transform:rotate(-45deg) translate(0,0)}50%{transform:rotate(-45deg) translate(-4px,4px)}}
+@keyframes pulse{0%{transform:scale(.3);opacity:.9}100%{transform:scale(2.2);opacity:0}}
+.info{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.info__card{padding:var(--s5);border-radius:var(--r);background:var(--paper);display:flex;flex-direction:column;gap:10px}
+.info__card--k{background:var(--k);color:var(--w)}
+.info__label{font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.info__card--k .info__label{color:var(--y)}
+.hours{display:grid;grid-template-columns:1fr auto;gap:6px 16px;font-size:16px;margin:0}
+.hours dt{margin:0}.hours dd{margin:0;font-weight:800}
+.link{font-weight:800;text-decoration-thickness:2px;text-underline-offset:4px;min-height:44px;display:inline-flex;align-items:center}
+@media (max-width:900px){.visit__grid{grid-template-columns:1fr}.visit__photo{aspect-ratio:4/3.6}.info{grid-template-columns:1fr}}
+
+/* ================= FOOTER ================= */
+.ftr{background:var(--k);padding:var(--s7) 0 calc(var(--s7) + env(safe-area-inset-bottom))}
+.ftr .wrap{display:flex;flex-wrap:wrap;gap:var(--s5);align-items:center;justify-content:space-between}
+.ftr img{height:44px;width:auto}
+.ftr p{margin:0;font-size:14px;color:#A8A8A8}
+.ftr nav{display:flex;gap:20px;flex-wrap:wrap}
+.ftr nav a{color:#E6E6E6;font-size:14px;min-height:44px;display:inline-flex;align-items:center}
+
+/* ================= WHATSAPP FLUTUANTE + CTA STICKY MOBILE ================= */
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:60;display:inline-flex;align-items:center;gap:10px;height:60px;padding:0 20px 0 16px;border-radius:var(--r-pill);background:var(--y);color:var(--k);font-weight:800;text-decoration:none;box-shadow:0 12px 30px rgba(0,0,0,.35);transition:transform .25s var(--ease)}
+.wa-float:hover{transform:translateY(-3px)}
+.wa-float svg{width:26px;height:26px}
+.sticky-cta{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:60;display:none}
+.sticky-cta .btn{width:100%;min-height:58px;padding:0 16px;font-size:15px;box-shadow:0 12px 30px rgba(0,0,0,.4)}
+@media (max-width:900px){
+  .wa-float{display:none}
+  .sticky-cta{display:block;transform:translateY(140%);transition:transform .35s var(--ease)}
+  .sticky-cta.is-on{transform:none}
+  body{padding-bottom:0}
+  .ftr{padding-bottom:calc(var(--s9) + env(safe-area-inset-bottom))}
+}
+
+/* ================= REVEAL ================= */
+.js .rv{opacity:0;transform:translateY(24px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.js .rv.is-in{opacity:1;transform:none}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none !important;transition:none !important}
+  .js .rv,.js .band{opacity:1 !important;transform:none !important}
+}
+</style>
+</head>
+<body>
+<!-- ===== Google Tag Manager (noscript): cole aqui logo após <body> ===== -->
+
+<a class="sr-only" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ================= HEADER ================= -->
+<header class="hdr" id="hdr">
+  <div class="wrap">
+    <a class="hdr__logo" href="#topo" aria-label="Sami Motors, voltar ao início"><img src="img/logo-light.webp" width="600" height="273" alt="Sami Motors"></a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <a href="#veiculos">Veículos</a>
+      <a href="#garantia">Garantia</a>
+      <a href="#protecao">Proteção</a>
+      <a href="#loja">A loja</a>
+      <a href="#visite">Como chegar</a>
+      <a class="btn" data-track="cta-menu-whatsapp" href="https://wa.me/5521990845432?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Sami%20Motors!">Falar no WhatsApp</a>
+    </nav>
+    <a class="btn btn--y hdr__cta" data-track="cta-header-whatsapp" href="https://wa.me/5521990845432?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Sami%20Motors!">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+      Chamar no WhatsApp
+    </a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="conteudo">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="topo" aria-labelledby="hero-title">
+  <div class="hero__slashes" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="wrap hero__grid">
+    <div class="hero__title-wrap" style="grid-area:title">
+      <p class="eyebrow hero__eyebrow">Praticidade ao seu alcance</p>
+      <h1 class="d hero__title" id="hero-title">Sua elétrica<br>pra ir <em>livre</em><br>pela cidade.</h1>
+    </div>
+    <div class="hero__copy">
+      <p class="lead">Scooters, quadriciclos, triciclos e bikes elétricas em Queimados – RJ. Com 2 anos de garantia, oficina própria e entrega em todo o RJ.</p>
+      <div class="btn-row">
+        <a class="btn btn--y" data-track="cta-hero-whatsapp" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20escolher%20minha%20moto%20el%C3%A9trica.">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+          Escolher minha moto elétrica
+        </a>
+        <a class="btn btn--ghost" href="#veiculos" data-track="cta-hero-veiculos">Ver veículos</a>
+      </div>
+    </div>
+    <div class="hero__photo">
+      <div class="hero__frame">
+        <img src="img/prod-loja2.webp" width="709" height="1260" alt="Fileira de scooters elétricas com a marca Sami Motors no showroom da loja" fetchpriority="high">
+      </div>
+      <span class="hero__tag2">Carregue, ligue e vá.</span>
+      <div class="hero__tag">
+        <i aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0B0B0B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"/></svg></i>
+        <div><b>Aqui você é livre de CNH</b><span>Consulte os modelos na loja</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= BENEFÍCIOS EXCLUSIVOS ================= -->
+<section class="perks" aria-labelledby="perks-title">
+  <div class="wrap">
+    <div class="perks__box rv">
+      <div class="perks__head"><h2 class="d" id="perks-title">Benefícios exclusivos</h2></div>
+      <div class="perks__grid">
+        <div class="perk">
+          <svg viewBox="0 0 48 48" fill="none" stroke="#FFD100" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 31c0-11.6 7.8-19 18-19s16 6.6 16 15v4H7z"/><path d="M5 31h38"/><path d="M24 12.5c-3.5 4.5-5 11-5 18.5"/><path d="M33 22h8"/><path d="M13 31v5a3 3 0 0 0 3 3h4"/></svg>
+          <strong>Brindes</strong><span>Capacete coquinho<br>+ cadeado</span>
+        </div>
+        <div class="perk">
+          <svg viewBox="0 0 48 48" fill="none" stroke="#FFD100" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 4l16 6v12c0 10-7 18-16 22C15 40 8 32 8 22V10l16-6z"/><path d="M16 24l6 6 11-12"/></svg>
+          <strong>2 anos de garantia</strong><span>Do módulo,<br>motor e bateria</span>
+        </div>
+        <div class="perk">
+          <svg viewBox="0 0 48 48" fill="none" stroke="#FFD100" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="38" height="26" rx="4"/><path d="M5 19h38M11 29h10"/><circle cx="35" cy="29" r="2"/></svg>
+          <strong>Parcelamos em até 18x</strong><span>No cartão<br>de crédito</span>
+        </div>
+        <div class="perk">
+          <svg viewBox="0 0 48 48" fill="none" stroke="#FFD100" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 12h18v20H14z"/><path d="M32 18h6l5 6v8H32"/><circle cx="19" cy="35" r="3.5"/><circle cx="37" cy="35" r="3.5"/><path d="M2 16h8M4 22h6M2 28h8"/></svg>
+          <strong>Entregamos</strong><span>Em todo<br>Rio de Janeiro</span>
+        </div>
+        <div class="perk">
+          <svg viewBox="0 0 48 48" fill="none" stroke="#FFD100" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M30 6a8 8 0 0 0-7 11L7 33a3 3 0 0 0 4 4l16-16a8 8 0 0 0 11-7l-5 2-4-4 2-5z"/><path d="M28 30l8 8 4-4-8-8"/></svg>
+          <strong>Oficina</strong><span>Própria</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="road road--on-k" aria-hidden="true"></div>
+
+<!-- ================= 3 FAIXAS ================= -->
+<section class="bands on-light" aria-label="Carregue, ligue e vá. Aqui você é livre de CNH. Entregamos em todo RJ.">
+  <div class="band band--l"><span class="band__mark" aria-hidden="true"></span><span class="d band__txt">Carregue, ligue e vá.</span></div>
+  <div class="band band--r"><span class="band__mark" aria-hidden="true"></span><span class="d band__txt">Aqui você é livre de CNH</span></div>
+  <div class="band band--l"><span class="band__mark" aria-hidden="true"></span><span class="d band__txt">Entregamos em todo RJ</span></div>
+</section>
+
+<!-- ================= CATEGORIAS ================= -->
+<section class="cats" aria-labelledby="cats-title">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <p class="eyebrow" style="color:var(--y)">O que você encontra aqui</p>
+        <h2 class="d h2" id="cats-title" style="margin-top:12px">Mobilidade elétrica<br><span style="color:var(--y)">completa</span></h2>
+      </div>
+      <p class="lead">Quatro categorias de veículos elétricos em um só lugar. Toque e fale com a equipe.</p>
+    </div>
+    <div class="cats__grid">
+      <a class="cat rv" data-track="cta-categoria-scooter" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Quero%20saber%20sobre%20as%20scooters%20el%C3%A9tricas."><svg viewBox="0 0 160 110" fill="none" stroke="#0B0B0B" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="34" cy="82" r="18"/><circle cx="34" cy="82" r="5" fill="#0B0B0B"/><circle cx="128" cy="82" r="18"/><circle cx="128" cy="82" r="5" fill="#0B0B0B"/><path d="M16 74c4-14 16-22 32-22h40c8 0 12 4 15 10l9 20H52"/><path d="M48 52l4-12h32"/><path d="M112 82l-6-30 8-34"/><path d="M104 18h22"/><path d="M76 62l-6 10h10l-6 10" stroke-width="4"/></svg><span class="cat__name">Scooters<br>elétricas</span></a>
+      <a class="cat rv" data-track="cta-categoria-quadriciclo" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Quero%20saber%20sobre%20os%20quadriciclos%20el%C3%A9tricos."><svg viewBox="-44 52 600 410" fill="#0B0B0B" aria-hidden="true"><path d="m422.7 246.4c-2.6 0-5.1.2-7.6.4v-37.3c0-8.8-3.3-17.1-9.2-23.3l-54.4-58c-7.8-8.3-19.1-12.2-30.4-10.3-6.2 1-11.9 3.8-16.6 7.8l-13.3-27.2c-1.5-3.1-4.4-5.3-7.8-5.8l-31.7-5.3c-5.8-1-11.3 3-12.3 8.8s3 11.3 8.8 12.3l26.3 4.4 16.8 34.3-.3.7h-21.3c-24.9 0-45.8 17.1-51.8 40.1l-165.1-57.5c-3.3-1.1-6.9-.6-9.7 1.4s-4.5 5.2-4.5 8.7c0 29.1 14.3 56.4 38.1 73.1l52.9 36.9-2.3 4.5c-11.6-5.5-24.5-8.7-38.2-8.7-49.1 0-89.1 40-89.1 89.2s40 89.3 89.2 89.3c43.3 0 79.5-31 87.6-72h26.1c3.9 0 7.5-2.2 9.4-5.6l16.1-29.9h49.7l16.8 30.1c1.9 3.4 5.4 5.5 9.3 5.5h31.1c8.1 41 44.2 72 87.5 72 49.2 0 89.3-40 89.3-89.3-.1-49.3-40.2-89.3-89.4-89.3zm-152.9-77.4h28.2c4.2 0 8-2.5 9.7-6.3l7.5-16.5c1.8-4 5.3-6.7 9.6-7.4s8.4.7 11.3 3.9l54.4 58.1c2.1 2.2 3.4 5.4 3.4 8.7v39.4l-155.6-54c2.8-14.7 15.9-25.9 31.5-25.9zm-180.6 234.5c-37.4 0-67.8-30.5-67.8-67.9s30.4-67.8 67.8-67.8c37.5 0 67.9 30.4 67.9 67.8s-30.5 67.9-67.9 67.9zm204.5-102c-1.9-3.4-5.4-5.5-9.3-5.5h-62.4c-3.9 0-7.5 2.2-9.4 5.6l-16.1 29.9h-18.3c-1.2-26.2-13.7-49.5-32.8-65.1l7.4-14.4c2.5-4.8 1-10.6-3.4-13.7l-60.4-42.1c-13.8-9.6-23.4-23.9-27.2-39.9l308.7 107.1c-21.3 15.5-35.5 40.1-36.8 68.1h-23.3zm129 102c-37.4 0-67.8-30.5-67.8-67.9s30.4-67.8 67.8-67.8c37.5 0 67.9 30.4 67.9 67.8.1 37.4-30.4 67.9-67.9 67.9z"/><path d="m422.7 289.1c-25.6 0-46.5 20.9-46.5 46.5 0 25.7 20.9 46.6 46.5 46.6 25.7 0 46.6-20.9 46.6-46.6s-20.9-46.5-46.6-46.5zm0 71.7c-13.9 0-25.2-11.3-25.2-25.3 0-13.9 11.3-25.2 25.2-25.2s25.3 11.3 25.3 25.2c0 14-11.3 25.3-25.3 25.3z"/><path d="m89.2 289.1c-25.6 0-46.5 20.9-46.5 46.5 0 25.7 20.9 46.6 46.5 46.6 25.7 0 46.6-20.9 46.6-46.6s-20.9-46.5-46.6-46.5zm0 71.7c-13.9 0-25.2-11.3-25.2-25.3 0-13.9 11.3-25.2 25.2-25.2s25.3 11.3 25.3 25.2c0 14-11.4 25.3-25.3 25.3z"/><path d="M268 236l-20 34h22l-16 30" fill="none" stroke="#0B0B0B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="cat__name">Quadriciclos<br>elétricos</span></a>
+      <a class="cat rv" data-track="cta-categoria-triciclo" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Quero%20saber%20sobre%20os%20triciclos%20el%C3%A9tricos."><svg viewBox="0 0 160 110" fill="none" stroke="#0B0B0B" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="30" cy="84" r="15"/><circle cx="66" cy="84" r="15"/><circle cx="134" cy="84" r="15"/><path d="M14 66h70V46H22z"/><path d="M84 66h24l12-44"/><path d="M120 22l14 62"/><path d="M110 18h24"/><path d="M30 46l6-16h30"/><path d="M48 50l-5 8h8l-5 8" stroke-width="4"/></svg><span class="cat__name">Triciclos<br>elétricos</span></a>
+      <a class="cat rv" data-track="cta-categoria-bike" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Quero%20saber%20sobre%20as%20bikes%20el%C3%A9tricas."><svg viewBox="0 0 160 110" fill="none" stroke="#0B0B0B" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="34" cy="76" r="24"/><circle cx="128" cy="76" r="24"/><path d="M34 76l26-38h48l20 38"/><path d="M60 38l20 38 28-38"/><path d="M50 26h20"/><path d="M108 38l-6-18h16"/><rect x="72" y="42" width="22" height="14" rx="3"/><path d="M84 45l-3 4h5l-3 4" stroke-width="3"/></svg><span class="cat__name">Bikes<br>elétricas</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VEÍCULOS ================= -->
+<section class="fleet" id="veiculos" aria-labelledby="fleet-title">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <p class="eyebrow" style="color:var(--y)">Linha elétrica</p>
+        <h2 class="d h2" id="fleet-title" style="margin-top:12px">Um elétrico pra<br>cada <span style="color:var(--y)">jeito de ir</span></h2>
+      </div>
+      <p class="lead">Toque na categoria e fale direto com a equipe sobre os modelos disponíveis.</p>
+    </div>
+    <div class="car" data-carousel aria-roledescription="carrossel" aria-label="Categorias de veículos">
+      <div class="car__viewport"><div class="car__track">
+        <a class="vcard" data-track="cta-veiculo-scooter" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Quero%20saber%20sobre%20as%20scooters%20el%C3%A9tricas.">
+          <img src="img/prod-scooter.webp" width="900" height="1200" alt="Scooter elétrica cinza com a marca Sami Motors" loading="lazy" style="object-position:center 60%">
+          <span class="vcard__num">01</span>
+          <span class="vcard__body"><span class="d vcard__title">Scooters<br>elétricas</span><span class="vcard__go" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+        </a>
+        <a class="vcard" data-track="cta-veiculo-quadriciclo" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Quero%20saber%20sobre%20os%20quadriciclos%20el%C3%A9tricos.">
+          <img src="img/prod-quad.webp" width="900" height="1200" alt="Quadriciclo elétrico laranja e preto no showroom" loading="lazy" style="object-position:center 65%">
+          <span class="vcard__num">02</span>
+          <span class="vcard__body"><span class="d vcard__title">Quadriciclos<br>elétricos</span><span class="vcard__go" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+        </a>
+        <a class="vcard" data-track="cta-veiculo-triciclo" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Quero%20saber%20sobre%20os%20triciclos%20el%C3%A9tricos.">
+          <img src="img/cli21.webp" width="522" height="760" alt="Triciclo elétrico azul entregue a clientes na loja" loading="lazy" style="object-position:center 80%">
+          <span class="vcard__num">03</span>
+          <span class="vcard__body"><span class="d vcard__title">Triciclos<br>elétricos</span><span class="vcard__go" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+        </a>
+        <a class="vcard" data-track="cta-veiculo-bike" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Quero%20saber%20sobre%20as%20bikes%20el%C3%A9tricas.">
+          <img src="img/cli12.webp" width="560" height="629" alt="Bike elétrica vermelha com cestinha" loading="lazy" style="object-position:center 70%">
+          <span class="vcard__num">04</span>
+          <span class="vcard__body"><span class="d vcard__title">Bikes<br>elétricas</span><span class="vcard__go" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+        </a>
+        <a class="vcard" data-track="cta-veiculo-linha" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Quero%20conhecer%20os%20modelos%20dispon%C3%ADveis.">
+          <img src="img/prod-loja2.webp" width="709" height="1260" alt="Fileira de scooters elétricas Sami Motors no showroom" loading="lazy" style="object-position:center 60%">
+          <span class="vcard__num">05</span>
+          <span class="vcard__body"><span class="d vcard__title">Linha<br>completa</span><span class="vcard__go" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+        </a>
+      </div></div>
+      <div class="car__bar">
+        <div class="car__progress" aria-hidden="true"><i></i></div>
+        <div class="car__btns">
+          <button class="car__btn car__btn--prev" type="button" data-prev aria-label="Anterior"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+          <button class="car__btn" type="button" data-next aria-label="Próximo"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CRÉDITO 96x ================= -->
+<section class="credit on-light" aria-labelledby="credit-title">
+  <div class="wrap credit__grid">
+    <div class="credit__copy rv">
+      <p class="eyebrow">Crédito facilitado</p>
+      <h2 class="d h2" id="credit-title">Aposentado ou CLT? <span class="hl">Libere seu crédito.</span></h2>
+      <p class="lead" style="color:var(--k);font-weight:700">Compre à vista e pague em até 96x.</p>
+      <p class="lead">O dinheiro cai na sua conta e você compra na loja como se fosse à vista.</p>
+      <div class="btn-row"><a class="btn btn--k" data-track="cta-credito-whatsapp" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Sou%20aposentado%2FCLT%20e%20quero%20simular%20o%20cr%C3%A9dito%20em%20at%C3%A9%2096x.">Simular meu crédito</a></div>
+    </div>
+    <div class="credit__num rv" aria-hidden="true">
+      <small>Pague em até</small>
+      <span class="d">96x</span>
+      <em>Aposentados e CLT</em>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GARANTIA ================= -->
+<section class="warranty" id="garantia" aria-labelledby="war-title">
+  <div class="wrap warranty__grid">
+    <div class="pillar" aria-hidden="true"><span>GARANTIA</span></div>
+    <div class="warranty__copy rv">
+      <p class="eyebrow" style="color:var(--y)">Compre tranquilo</p>
+      <h2 id="war-title"><span class="d warranty__big" style="display:block">2 anos</span><span class="d warranty__sub" style="display:block">de garantia</span></h2>
+      <p class="lead">Cobertura do <strong style="color:#fff">módulo, do motor e da bateria</strong> — e a assistência acontece na nossa própria oficina.</p>
+      <div class="chips"><span class="chip">Módulo</span><span class="chip">Motor</span><span class="chip">Bateria</span></div>
+      <div class="btn-row"><a class="btn btn--y" data-track="cta-garantia-whatsapp" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20garantia%20de%202%20anos.">Tirar dúvidas sobre a garantia</a></div>
+    </div>
+    <div class="sh3d" role="img" aria-label="Escudo amarelo em 3D de garantia">
+      <div class="sh3d__obj"><span style="--i:1"></span><span style="--i:2"></span><span style="--i:3"></span><span style="--i:4"></span><span style="--i:5"></span><span style="--i:6"></span><span style="--i:7"></span><span style="--i:8"></span><span style="--i:9"></span><span style="--i:10"></span><span style="--i:11"></span><span style="--i:12"></span><span style="--i:13"></span><span style="--i:14"></span><span style="--i:15"></span><span style="--i:16"></span><span style="--i:17"></span><span style="--i:18"></span><div class="sh3d__face"></div><div class="sh3d__ring"></div><div class="sh3d__inner"></div>
+        <svg class="sh3d__check" viewBox="0 0 100 80" fill="none" stroke="#0B0B0B" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 42l24 24 52-54"/></svg>
+      </div>
+      <div class="sh3d__floor"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OFICINA PRÓPRIA ================= -->
+<section class="shop on-light" id="oficina" aria-labelledby="shop-title">
+  <div class="wrap shop__grid">
+    <div class="shop__photo rv">
+      <img src="img/prod-citycoco.webp" width="1000" height="1333" alt="Showroom da Sami Motors com scooters e caixas de novos veículos" loading="lazy">
+      <span class="shop__badge">Oficina própria</span>
+    </div>
+    <div class="shop__copy rv">
+      <p class="eyebrow">Diferencial Sami</p>
+      <h2 class="d h2" id="shop-title">Comprou aqui,<br>tem suporte aqui.</h2>
+      <p class="lead">A Sami Motors tem oficina própria. Quem vende o seu elétrico é quem cuida dele depois, sem você precisar procurar terceiros.</p>
+      <ul class="ticks">
+        <li><i aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFD100" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.5-.5-.5-2.5 2.5-2.5z"/></svg></i>Assistência técnica no mesmo endereço da loja</li>
+        <li><i aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFD100" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></i>Garantia de 2 anos atendida pela própria equipe</li>
+        <li><i aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFD100" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="16" height="10" rx="2"/><path d="M21 11v2M10 9l-2 3h4l-2 3"/></svg></i>Cuidado com módulo, motor e bateria</li>
+      </ul>
+      <div class="btn-row"><a class="btn btn--k" data-track="cta-oficina-whatsapp" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Quero%20falar%20com%20a%20oficina%20da%20Sami%20Motors.">Falar com a oficina</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROTEÇÃO VEICULAR ================= -->
+<section class="protect on-yellow" id="protecao" aria-labelledby="pro-title">
+  <div class="wrap protect__grid">
+    <div class="protect__copy rv">
+      <p class="eyebrow">Proteção veicular</p>
+      <h2 class="d protect__plan" id="pro-title">Planos Pronobre<span>Connect</span></h2>
+      <p class="lead" style="font-weight:600;font-size:17px">Tranquilidade e proteção para ir mais longe. Conectado ao que importa para você.</p>
+      <ul class="protect__list">
+        <li><i aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0B0B0B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6 7-12a7 7 0 0 0-14 0c0 6 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></i>Monitoramento por Tag</li>
+        <li><i aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0B0B0B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9L12 3z"/></svg></i>Clube de Vantagens Nobre+</li>
+        <li><i aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0B0B0B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5"/><rect x="17" y="14" width="4" height="6" rx="1.5"/></svg></i>Assistência Jurídica</li>
+        <li><i aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0B0B0B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/></svg></i><span>Assistência Funeral<small>de até R$ 3.000,00</small></span></li>
+      </ul>
+      <div class="protect__cta">
+        <div class="price"><small>Mensalidade</small><b>R$ 29,90</b><span>/mês</span></div>
+        <a class="btn btn--k" data-track="cta-protecao-whatsapp" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Quero%20saber%20sobre%20a%20prote%C3%A7%C3%A3o%20veicular%20Pronobre%20Connect.">Quero proteger minha moto elétrica</a>
+      </div>
+      <p class="partner">Proteção patrimonial mutualista Pronobre — protegido antes de precisar. Contato do parceiro: <a href="tel:+5521965004449" data-track="cta-phone-pronobre">(21) 96500-4449</a> · <a href="https://www.instagram.com/pronobrepv/" data-track="cta-instagram-pronobre">@pronobrepv</a></p>
+    </div>
+    <div class="protect__img rv">
+      <img src="img/protecao.webp" width="1100" height="834" alt="Scooter elétrica, tag de monitoramento Pronobre e aplicativo mostrando a localização do veículo" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ================= CEO ================= -->
+<section class="ceo" aria-labelledby="ceo-title">
+  <div class="wrap ceo__grid">
+    <div class="ceo__photo rv">
+      <img src="img/samara.webp" width="900" height="1174" alt="Samara Menezes, CEO da Sami Motors, em frente ao letreiro da loja" loading="lazy">
+      <div class="ceo__name-tag"><b>Samara Menezes</b><span>CEO</span></div>
+    </div>
+    <div class="ceo__copy rv">
+      <p class="eyebrow" style="color:var(--y)">Quem está à frente</p>
+      <h2 class="d ceo__name" id="ceo-title">Samara<br><em>Menezes</em></h2>
+      <span class="ceo__role">CEO · SAMI MOTORS</span>
+      <p class="lead">À frente da Sami Motors em Queimados, Samara construiu uma loja com showroom próprio, oficina e entrega em todo o RJ, para levar praticidade e mobilidade elétrica ao seu alcance.</p>
+      <div class="btn-row"><a class="btn btn--ghost" data-track="cta-instagram-ceo" href="https://www.instagram.com/samimotors.rj/">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+        Acompanhar no Instagram</a></div>
+    </div>
+  </div>
+</section>
+
+<div class="road road--on-k" aria-hidden="true"></div>
+
+<!-- ================= A LOJA ================= -->
+<section class="store on-light" id="loja" aria-labelledby="store-title">
+  <div class="wrap">
+    <div class="store__hero rv">
+      <img src="img/fachada.webp" width="1600" height="1249" alt="Fachada da Sami Motors em Queimados com scooters elétricas expostas na calçada" loading="lazy">
+      <div class="store__title">
+        <p class="eyebrow" style="color:var(--y)">A loja</p>
+        <h2 class="d h2" id="store-title" style="margin-top:10px">Estrutura pronta<br>pra te atender.</h2>
+      </div>
+    </div>
+    <div class="store__grid">
+      <div class="feat feat--y rv">
+        <i aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFD100" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21V9l9-6 9 6v12"/><path d="M9 21v-6h6v6"/></svg></i>
+        <b>Showroom amplo</b><span>Dezenas de modelos expostos para ver de perto, sentar e escolher com calma.</span>
+      </div>
+      <div class="feat feat--photo rv"><img src="img/prod-showroom.webp" width="1100" height="825" alt="Interior do showroom com muitas scooters elétricas enfileiradas" loading="lazy"></div>
+      <div class="feat rv">
+        <i aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFD100" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.5-.5-.5-2.5 2.5-2.5z"/></svg></i>
+        <b>Oficina no mesmo lugar</b><span>Compra, garantia e assistência no mesmo endereço.</span>
+      </div>
+      <div class="feat rv">
+        <i aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FFD100" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M7 10h4M7 14h7"/><path d="M4 4l16 16"/></svg></i>
+        <b>Livre de emplacamento e CNH</b><span>Pergunte quais modelos se enquadram e saia rodando.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CLIENTES ================= -->
+<section class="clients" aria-labelledby="cli-title">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div>
+        <p class="eyebrow" style="color:var(--y)">Clientes satisfeitos</p>
+        <h2 class="d h2" id="cli-title" style="margin-top:12px">Quem já saiu<br>daqui <span style="color:var(--y)">rodando</span></h2>
+      </div>
+      <p class="lead">Cada foto é uma entrega real, feita aqui na loja em Queimados.</p>
+    </div>
+    <div class="car car--clients" data-carousel data-autoplay="3200" aria-roledescription="carrossel" aria-label="Fotos de clientes">
+      <div class="car__viewport"><div class="car__track">
+        <figure class="slide-cli"><img src="img/cli01.webp" width="560" height="746" alt="Clientes com scooter elétrica preta recém-entregue" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli04.webp" width="560" height="746" alt="Cliente com triciclo elétrico cinza" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli14.webp" width="560" height="746" alt="Clientes com scooter elétrica azul" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli06.webp" width="560" height="746" alt="Casal com scooter elétrica de banco caramelo" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli02.webp" width="560" height="746" alt="Cliente com scooter elétrica preta e branca" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli13.webp" width="560" height="746" alt="Cliente com scooter elétrica vermelha" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli18.webp" width="560" height="746" alt="Cliente com scooter elétrica roxa" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli24.webp" width="560" height="746" alt="Clientes com triciclo elétrico vermelho" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli08.webp" width="560" height="746" alt="Clientes com scooter elétrica vermelha" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli20.webp" width="560" height="746" alt="Família com scooter elétrica" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli11.webp" width="560" height="746" alt="Cliente com scooter elétrica azul clara" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli09.webp" width="560" height="746" alt="Cliente com scooter elétrica cinza" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli03.webp" width="560" height="746" alt="Cliente com scooter elétrica preta" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli05.webp" width="560" height="746" alt="Cliente com scooter elétrica vermelha" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli07.webp" width="560" height="746" alt="Cliente com scooter elétrica vermelha" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli10.webp" width="560" height="746" alt="Cliente com scooter elétrica preta" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli15.webp" width="560" height="746" alt="Clientes com scooter elétrica verde" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli16.webp" width="560" height="746" alt="Família com scooter elétrica" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli17.webp" width="560" height="746" alt="Cliente com scooter elétrica azul" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli19.webp" width="560" height="746" alt="Cliente com scooter elétrica azul clara" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli21.webp" width="522" height="760" alt="Clientes com triciclo elétrico azul" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli22.webp" width="560" height="746" alt="Cliente com scooter elétrica azul clara" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli23.webp" width="560" height="746" alt="Cliente com scooter elétrica preta" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli12.webp" width="560" height="629" alt="Cliente com bike elétrica vermelha" loading="lazy"></figure>
+        <figure class="slide-cli"><img src="img/cli25.webp" width="560" height="747" alt="Clientes com scooter elétrica preta e sacolas da Sami Motors" loading="lazy"></figure>
+      </div></div>
+      <div class="car__bar">
+        <div class="car__dots" role="group" aria-label="Escolher foto"></div>
+        <div class="car__btns">
+          <button class="car__btn car__btn--prev" type="button" data-prev aria-label="Fotos anteriores"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></button>
+          <button class="car__btn" type="button" data-next aria-label="Próximas fotos"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="clients__more">
+      <a class="btn btn--y" data-track="cta-instagram-clientes" href="https://www.instagram.com/samimotors.rj/">Ver mais no Instagram</a>
+    </div>
+  </div>
+</section>
+
+<div class="road road--on-k" aria-hidden="true"></div>
+
+<!-- ================= VISITE / MAPA ================= -->
+<section class="visit on-light" id="visite" aria-labelledby="visit-title">
+  <div class="wrap">
+    <div class="sec-head rv" style="margin-bottom:0">
+      <div>
+        <img src="img/logo-dark.webp" width="600" height="273" alt="Sami Motors" loading="lazy" style="height:72px;width:auto;margin-bottom:24px">
+        <p class="eyebrow">Como chegar</p>
+        <h2 class="d h2" id="visit-title" style="margin-top:12px">Vem conhecer<br>a Sami de perto.</h2>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn--k" data-track="cta-maps" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rua%20Vereador%20Marinho%20Hemet%C3%A9rito%20de%20Oliveira%2C%20985%2C%20Vila%20Nascente%2C%20Queimados%20-%20RJ%2C%2026377-405">Traçar rota no Maps</a>
+        <a class="btn btn--y" data-track="cta-visite-whatsapp" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Quero%20visitar%20a%20loja.%20Podem%20me%20ajudar%3F">Avisar que estou indo</a>
+      </div>
+    </div>
+    <div class="visit__grid">
+      <div class="visit__photo rv">
+        <img src="img/fachada2.webp" width="900" height="1200" alt="Fachada da Sami Motors com pilares amarelos de 2 anos de garantia e letreiro Livre de emplacamento e CNH" loading="lazy">
+      </div>
+      <div class="visit__side">
+        <div class="map rv">
+          <!-- Base ilustrada: aparece na hora (e fica por baixo enquanto o Google Maps carrega) -->
+          <svg class="map__base" viewBox="0 0 600 360" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect width="600" height="360" fill="#ECEAE3"/>
+            <path d="M0 250 Q120 230 210 262 T420 250 T600 270 V360 H0Z" fill="#DCE8D2"/>
+            <rect x="380" y="40" width="130" height="80" rx="10" fill="#DCE8D2"/>
+            <g stroke="#FFFFFF" stroke-linecap="round" fill="none">
+              <path d="M-20 120 L620 90" stroke-width="16"/>
+              <path d="M-20 300 L620 250" stroke-width="12"/>
+              <path d="M140 -20 L180 380" stroke-width="12"/>
+              <path d="M330 -20 L300 380" stroke-width="14"/>
+              <path d="M470 -20 L520 380" stroke-width="10"/>
+              <path d="M0 40 L600 20 M0 200 L600 175 M60 -20 L80 380 M240 -20 L255 380 M400 -20 L410 380 M560 -20 L590 380" stroke-width="6"/>
+            </g>
+            <path d="M-20 186 C150 170 230 195 320 182 S520 150 620 160" stroke="#FFD100" stroke-width="10" fill="none" stroke-linecap="round"/>
+            <path d="M-20 186 C150 170 230 195 320 182 S520 150 620 160" stroke="#E0A800" stroke-width="2" fill="none" stroke-dasharray="10 10"/>
+            <g font-family="Archivo,sans-serif" font-size="13" font-weight="700" fill="#7A7A7A">
+              <text x="34" y="160" transform="rotate(-3 34 160)">Vila Nascente</text>
+              <text x="420" y="292">Queimados – RJ</text>
+            </g>
+          </svg>
+          <!-- Integração Google Maps (embed público, sem chave de API). Injetado via JS para carregar logo ao abrir. -->
+          <div id="gmap" data-src="https://www.google.com/maps?q=Rua+Vereador+Marinho+Hemet%C3%A9rito+de+Oliveira,+985,+Vila+Nascente,+Queimados+-+RJ,+26377-405&amp;z=16&amp;output=embed"></div>
+          <div class="pin" aria-hidden="true"><span class="pin__pulse"></span><span class="pin__pulse"></span><span class="pin__shadow"></span><span class="pin__head"></span></div>
+          <a class="map__chip" data-track="cta-maps-mapa" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20Vereador%20Marinho%20Hemet%C3%A9rito%20de%20Oliveira%2C%20985%2C%20Queimados%20-%20RJ">Abrir no Google Maps ↗</a>
+        </div>
+        <div class="info">
+          <div class="info__card rv">
+            <span class="info__label">Endereço</span>
+            <address style="font-style:normal">Rua Vereador Marinho Hemetérito de Oliveira, 985<br>Vila Nascente, Queimados – RJ<br>CEP 26377-405</address>
+            <a class="link" data-track="cta-maps-endereco" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20Vereador%20Marinho%20Hemet%C3%A9rito%20de%20Oliveira%2C%20985%2C%20Queimados%20-%20RJ">Abrir no Google Maps →</a>
+          </div>
+          <div class="info__card info__card--k rv">
+            <span class="info__label">Horário de funcionamento</span>
+            <dl class="hours">
+              <dt>Segunda</dt><dd>09h – 19h</dd>
+              <dt>Terça a sábado</dt><dd>09h – 18h</dd>
+              <dt>Domingo</dt><dd>Fechada</dd>
+            </dl>
+            <a class="link" data-track="cta-phone" href="tel:+5521990845432" style="color:var(--y)">(21) 99084-5432</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<div class="road road--on-w" aria-hidden="true"></div>
+<footer class="ftr">
+  <div class="wrap">
+    <img src="img/logo-light.webp" width="600" height="273" alt="Sami Motors — Praticidade ao seu alcance" loading="lazy">
+    <nav aria-label="Rodapé">
+      <a href="https://wa.me/5521990845432" data-track="cta-footer-whatsapp">WhatsApp</a>
+      <a href="https://www.instagram.com/samimotors.rj/" data-track="cta-footer-instagram">@samimotors.rj</a>
+      <a href="tel:+5521990845432" data-track="cta-footer-phone">(21) 99084-5432</a>
+    </nav>
+    <p>Sami Motors · Queimados – RJ · Entregamos em todo o RJ</p>
+    <!-- Espaço para CNPJ, Política de Privacidade e Termos quando disponíveis -->
+  </div>
+</footer>
+
+<!-- WhatsApp flutuante (desktop) -->
+<a class="wa-float" data-track="cta-float-whatsapp" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Sami%20Motors." aria-label="Falar com a Sami Motors no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+  WhatsApp
+</a>
+
+<!-- CTA fixo mobile: aparece depois da primeira dobra -->
+<div class="sticky-cta" id="stickyCta">
+  <a class="btn btn--y" data-track="cta-sticky-whatsapp" href="https://wa.me/5521990845432?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20escolher%20minha%20moto%20el%C3%A9trica.">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.7-.1 1.3z"/></svg>
+    Escolher minha moto elétrica
+  </a>
+</div>
+
+<script>
+(function(){
+  var d=document, root=d.documentElement;
+  root.classList.add('js');
+
+  /* ---------- UTM / click IDs: guardados na sessão e enviados nos eventos ---------- */
+  var KEYS=['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','fbclid'], attr={};
+  try{
+    var q=new URLSearchParams(location.search);
+    KEYS.forEach(function(k){ var v=q.get(k); if(v){ sessionStorage.setItem('sm_'+k,v); } var s=sessionStorage.getItem('sm_'+k); if(s){ attr[k]=s; } });
+  }catch(e){}
+
+  /* ---------- Tracking: dataLayer (GTM / GA4 / Meta Pixel via GTM) ---------- */
+  window.dataLayer=window.dataLayer||[];
+  function channel(href){
+    if(/wa\.me|whatsapp/.test(href)) return 'whatsapp';
+    if(/instagram\.com/.test(href)) return 'instagram';
+    if(/^tel:/.test(href)) return 'phone';
+    if(/google\.[^/]+\/maps/.test(href)) return 'maps';
+    return 'internal';
+  }
+  d.addEventListener('click',function(ev){
+    var el=ev.target.closest('[data-track]'); if(!el) return;
+    var name=el.getAttribute('data-track'), href=el.getAttribute('href')||'';
+    var payload={event:'cta_click',cta_name:channel(href),cta_id:name,cta_location:(el.closest('section,header,footer')||{}).id||'global'};
+    for(var k in attr){ payload[k]=attr[k]; }
+    window.dataLayer.push(payload);
+    /* Meta Pixel direto (se não usar via GTM): if(window.fbq && payload.cta_name==='whatsapp'){ fbq('track','Contact'); } */
+  });
+
+  /* ---------- Header reage ao scroll ---------- */
+  var hdr=d.getElementById('hdr');
+  function onScroll(){ hdr.classList.toggle('is-solid', window.scrollY>40); }
+  onScroll(); window.addEventListener('scroll',onScroll,{passive:true});
+
+  /* ---------- Menu mobile ---------- */
+  var btn=d.getElementById('menuBtn'), nav=d.getElementById('nav');
+  btn.addEventListener('click',function(){ var open=nav.classList.toggle('is-open'); btn.setAttribute('aria-expanded',open); btn.setAttribute('aria-label',open?'Fechar menu':'Abrir menu'); });
+  nav.addEventListener('click',function(e){ if(e.target.closest('a')){ nav.classList.remove('is-open'); btn.setAttribute('aria-expanded','false'); } });
+
+  /* ---------- Reveal + faixas + CTA sticky ---------- */
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('is-in'); io.unobserve(e.target);} }); },{threshold:.15,rootMargin:'0px 0px -40px 0px'});
+    d.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+    /* faixas: observa a seção (as faixas começam fora da tela na horizontal) */
+    var bands=d.querySelector('.bands');
+    var bo=new IntersectionObserver(function(es){ if(es[0].isIntersecting){ bands.querySelectorAll('.band').forEach(function(b){ b.classList.add('is-in'); }); bo.disconnect(); } },{threshold:.2});
+    bo.observe(bands);
+    var sticky=d.getElementById('stickyCta'), hero=d.getElementById('topo');
+    new IntersectionObserver(function(es){ sticky.classList.toggle('is-on', !es[0].isIntersecting); }).observe(hero);
+  }else{
+    d.querySelectorAll('.rv,.band').forEach(function(el){ el.classList.add('is-in'); });
+  }
+
+  /* ---------- Google Maps: carrega imediatamente (fora da pré-visualização do Claude, que bloqueia iframes) ---------- */
+  var gm=d.getElementById('gmap');
+  if(gm && !/claude|anthropic/i.test(location.hostname) && location.protocol!=='file:'){
+    var f=d.createElement('iframe'); f.title='Mapa da Sami Motors em Queimados - RJ'; f.referrerPolicy='no-referrer-when-downgrade';
+    f.src=gm.getAttribute('data-src').replace(/&amp;/g,'&'); f.addEventListener('load',function(){ f.classList.add('is-loaded'); });
+    gm.replaceWith(f);
+  }
+
+  /* ---------- Carrosséis (veículos e clientes) ---------- */
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  d.querySelectorAll('[data-carousel]').forEach(function(root){
+    var track=root.querySelector('.car__track'), slides=[].slice.call(track.children), idx=0, timer=null, moveT=null;
+    var dotsBox=root.querySelector('.car__dots'), bar=root.querySelector('.car__progress i');
+    function pv(){ return parseFloat(getComputedStyle(root).getPropertyValue('--pv'))||1; }
+    function maxI(){ return Math.max(0, slides.length-Math.floor(pv())); }
+    function step(){ var g=parseFloat(getComputedStyle(track).columnGap)||16; return slides[0].getBoundingClientRect().width+g; }
+    function renderDots(){
+      if(!dotsBox) return; dotsBox.innerHTML='';
+      for(var i=0;i<=maxI();i++){ var b=d.createElement('button'); b.type='button'; b.setAttribute('aria-label','Ir para a foto '+(i+1)); (function(n){ b.addEventListener('click',function(){ go(n); restart(); }); })(i); dotsBox.appendChild(b); }
+    }
+    function go(i,instant){
+      var m=maxI(); if(i>m) i=0; if(i<0) i=m; idx=i;
+      if(!instant && !reduce){ root.classList.add('is-moving'); clearTimeout(moveT); moveT=setTimeout(function(){ root.classList.remove('is-moving'); },560); }
+      track.style.transform='translateX('+(-idx*step())+'px)';
+      if(dotsBox){ [].forEach.call(dotsBox.children,function(b,n){ b.setAttribute('aria-current', n===idx?'true':'false'); }); }
+      if(bar){ bar.style.width=((idx+Math.floor(pv()))/slides.length*100)+'%'; }
+    }
+    function restart(){ var ms=+root.getAttribute('data-autoplay'); if(!ms||reduce) return; clearInterval(timer); timer=setInterval(function(){ go(idx+1); },ms); }
+    root.querySelector('[data-next]').addEventListener('click',function(){ go(idx+1); restart(); });
+    root.querySelector('[data-prev]').addEventListener('click',function(){ go(idx-1); restart(); });
+    root.addEventListener('mouseenter',function(){ clearInterval(timer); });
+    root.addEventListener('mouseleave',restart);
+    root.addEventListener('focusin',function(){ clearInterval(timer); });
+    /* arrastar / swipe */
+    var x0=null;
+    root.querySelector('.car__viewport').addEventListener('pointerdown',function(e){ x0=e.clientX; });
+    root.querySelector('.car__viewport').addEventListener('pointerup',function(e){ if(x0===null) return; var dx=e.clientX-x0; x0=null; if(Math.abs(dx)>40){ go(idx+(dx<0?1:-1)); restart(); } });
+    root.querySelector('.car__viewport').addEventListener('click',function(e){ if(Math.abs((e.clientX||0)-(x0||e.clientX))>5) e.preventDefault(); });
+    var rz; window.addEventListener('resize',function(){ clearTimeout(rz); rz=setTimeout(function(){ renderDots(); go(Math.min(idx,maxI()),true); },150); });
+    renderDots(); go(0,true); restart();
+  });
+})();
+</script>
+</body>
+</html>
